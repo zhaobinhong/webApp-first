@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<title>Hello H5+ 2</title>
+		<script type="text/javascript" src="js/common.js"></script>
+		<link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<style type="text/css">
+			.search-box {
+				width: 100%;
+				padding: 10px 0px;
+				background: #f5f5f5;
+			}
+			
+			.sb-search-input {
+				width: 92%;
+				padding: 5px;
+				border: 0;
+				border-radius: 6px;
+			}
+			
+			.sb-search-input:focus {
+				outline: none;
+			}
+			
+			.perdata {
+				text-align: left;
+				padding: 10px;
+				border-bottom: 1px solid #e4e4e4;
+			}
+			
+			.item {
+				display: block;
+				background: no-repeat right center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsCAYAAAB/nHhDAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAKwwAACsMBNCkkqwAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNC8yOC8xMqLz6JEAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABJ0lEQVRYhe3Wv6rCMBQG8C/VN1AEd3HSzuYO3jr4knkY0UE62xTBcp9A8A0uHhc72CZp/lQQyZmT7xfSJKeMiPDOSt6aHoEIRKAbkLKioqiCrroWkLKi+51ARAhBlEAdXlcI0gLK8u8lPBRpAYvFjCUJUw72QZRbtFzOe0O0H7kvxHhM83yfhiJdF+2c5/utCTmdLnS93rQQs2mZQogN59lOdbrqmk7HmExGrZVYAU9kzXl2cEWsgSfys1r9Hk1TmogTAABFcTFOaQJOr6mUlVO4E9B8n2zCrQHfcAAYmoKFEAPOs39dOGMMaTpXX5J6jGlTTSu3CQcsGk5IuBboK1wJ6BqOT7gS0DUcn3AlALR7gW84YHGKiOAd3gn0UV/+6xiBCHwG8AByzMrOPKV7sAAAAABJRU5ErkJggg==);
+				background-size: 12px 22px;
+				-ms-touch-action: auto;
+			}
+			
+			.pull-left {
+				/*width: 172px;
+				height: 152px;*/
+				float: left;
+				width: 12em;
+				height: 10.5em;
+			}
+			
+			.pull-right {
+				/*height: 152px;*/
+				overflow: hidden;
+				height: 10.5em;
+				border-bottom: 1px solid #ccc;
+			}
+			.headline{
+				font-size: 1em;
+				margin: 10px 0 ;
+			}
+			.ellipsis{
+				font-size: .8em;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="nvbt ifun" id="fun-center.html" onclick="clicked(this.id);"></div>
+			<div class="nvtt ">签我</div>
+			<div class="nvbt iQr" id="plus/barcode.html" onclick="clicked(this.id);"></div>
+		</header>
+		<div id="dcontent" class="dcontent">
+			<form class="search-box">
+				<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+
+				<span class="sb-icon-search"></span>
+			</form>
+
+			<div class="perdata">
+
+				<span class="item" id="" onclick="clicked(this.id);">
+					查看个人资料
+				</span>
+
+			</div>
+			<div class="" style="margin-bottom: 35px; text-align: left;">
+				<ul class="" >
+					<li class="" >
+
+						<div class="pull-left signature"></div>
+						<div class="pull-right">
+							<br />
+							<br />
+							<br />
+							<h4 class="headline">扫码签名</h4>
+							<p class='ellipsis'>签署了「设计外包合同」文件</p>
+						</div>
+
+					</li>
+					<li class="">
+
+						<div class=" pull-left cloud"></div>
+						<div class="pull-right">
+							<br />
+							<br />
+							<br />
+							<h4 class="headline">刘备、关羽、张飞</h4>
+							<p class='ellipsis'>张飞：你看文档没有</p>
+						</div>
+
+					</li>
+					<li class="">
+
+						<div class=" pull-left signature" ></div>
+						<div class="pull-right">
+							<br />
+							<br />
+							<br />
+							<h4 class="headline">扫码签名</h4>
+							<span class='ellipsis'>签署了「顺丰快递：976330870413」</span>
+						</div>
+
+					</li>
+					<li class="">
+
+						<div class=" pull-left consumption"></div>
+						<div class="pull-right">
+							<br />
+							<br />
+							<br />
+							<h4 class="headline">-99.00</h4>
+							<span class='ellipsis'>宵夜订餐</span>
+						</div>
+
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/immersed.js"></script>
+	
+<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+</html>

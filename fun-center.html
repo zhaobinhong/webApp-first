@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<title>功能中心</title>
+		<script type="text/javascript" src="js/common.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mui.css" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+
+<style type="text/css">
+	li.borderNone{
+		border-bottom: none;
+	}
+	.dcontent .mui-content{
+		color: #fff;
+	}
+	.content-border{
+		border-bottom: 2px solid #4ab371;
+	}
+</style>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="nvbt iback" onclick="back()"></div>
+			<div class="nvtt ">功能中心</div>
+			<div class="nvbt " id="plus/barcode.html" onclick="clicked(this.id);"></div>
+		</header>
+		<div id="dcontent" class="dcontent">
+			<div class="mui-content content-border">
+				<div class="" style="background: #5dc785; padding: 16px 0 10px 0;">
+					
+					<p style="color: #f5ffff;font-size: 1.1em">快捷入口</p>
+					<hr style="width: 2em; margin: 0 auto;margin-top: 10px;"/>
+				</div>
+				<ul class="mui-table-view mui-grid-view mui-grid-9" style="background: #5dc785; color:f5ffff ;">
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon mui-icon-home"></span>
+							<div class="mui-media-body">扫码签名</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon mui-icon-email"><span class="mui-badge">5</span></span>
+							<div class="mui-media-body">文件签名</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-chatbubble"></span>
+							<div class="mui-media-body">加密讨论</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-location"></span>
+							<div class="mui-media-body">银行手机盾</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">支付</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-phone"></span>
+							<div class="mui-media-body">设置</div>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			
+			
+			<div class="mui-content content-border">
+				<div class="" style="background: #5dc785; padding: 16px 0 10px 0;">
+					
+					<p style="color: #f5ffff;font-size: 1.1em">Bankeys 内置功能</p>
+					<hr style="width: 2em; margin: 0 auto;margin-top: 10px;"/>
+				</div>
+				<ul class="mui-table-view mui-grid-view mui-grid-9" style="background: #5dc785; color:f5ffff ;">
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon mui-icon-home"></span>
+							<div class="mui-media-body">扫码签名</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+						<span class="mui-icon mui-icon-home"></span>
+							<div class="mui-media-body">文件签名</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-chatbubble"></span>
+							<div class="mui-media-body">加密讨论</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-location"></span>
+							<div class="mui-media-body">银行手机盾</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">转账</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">支付</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-phone"></span>
+							<div class="mui-media-body">申请证书</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">建立组织</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">技术中心</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">—</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">联络人</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">—</div>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			
+			
+			
+			
+			
+			<div class="mui-content content-border">
+				<div class="" style="background: #5dc785; padding: 16px 0 10px 0;">
+					
+					<p style="color: #f5ffff;font-size: 1.1em">合作第三方功能</p>
+					<hr style="width: 2em; margin: 0 auto;margin-top: 10px;"/>
+				</div>
+				<ul class="mui-table-view mui-grid-view mui-grid-9" style="background: #5dc785; color:f5ffff ;">
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon mui-icon-home"></span>
+							<div class="mui-media-body">Bankeys 懒人店</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						<a href="#">
+							<span class="mui-icon mui-icon-home"></span>
+							<div class="mui-media-body">违章查询</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-chatbubble"></span>
+							<div class="mui-media-body">个人征信查询</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-location"></span>
+							<div class="mui-media-body">Bankeys 合同宝</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-search"></span>
+							<div class="mui-media-body">通用登入</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 borderNone" style="border-bottom: none;border-right: none;">
+						<a href="#">
+							<span class="mui-icon mui-icon-phone"></span>
+							<div class="mui-media-body">—</div>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			
+			
+			
+			
+			
+			
+		</div>
+	</body>
+
+	<script>
+		mui.init({
+			swipeBack: true //启用右滑关闭功能
+		});
+	</script>
+
+</html>

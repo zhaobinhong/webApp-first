@@ -1,0 +1,148 @@
+{
+  "index.html": {
+    "resources": [
+      "css/common.css",
+      "js/update.js",
+      "js/shortcut.js",
+      "js/immersed.js"
+    ],
+    "refer": [
+      "plus/accelerometer.html",
+      "plus/barcode.html",
+      "plus/geolocation.html",
+      "plus/downloader.html",
+      "plus/nativeui.html",
+      "plus/audio.html",
+      "plus/storage.html",
+      "plus/uploader.html",
+      "plus/gallery.html",
+      "plus/proximity.html",
+      "plus/njs.html",
+      "plus/file.html"
+    ]
+  },
+  "plus/accelerometer_shake.html": {
+    "resources": [
+      "img/shake/1.jpg",
+      "img/shakedown.png",
+      "img/shakeup.png",
+      "img/shake/3.jpg"
+    ],
+    "refer": []
+  },
+  "plus/accelerometer.html": {
+    "resources": [
+      "js/common.js"
+    ],
+    "refer": [
+      "plus/accelerometer_shake.html"
+    ]
+  },
+  "plus/barcode.html": {
+    "resources": [
+      "js/common.js",
+      "css/common.css",
+      "js/immersed.js",
+      "img/barcode.png"
+    ],
+    "refer": [
+      "plus/barcode_scan2.html"
+    ]
+  },
+  "plus/geolocation.html": {
+    "resources": [
+      "js/common.js"
+    ],
+    "refer": []
+  },
+  "plus/downloader.html": {
+    "refer": [
+      "plus/doc.html"
+    ],
+    "resources": []
+  },
+  "plus/nativeui.html": {
+    "refer": [
+      "plus/nativeui_waiting.html"
+    ],
+    "resources": []
+  },
+  "doc/downloader.html": {
+    "resources": [
+      "doc/res/doc.css",
+      "doc/res/prettify.js",
+      "doc/res/prettify.sons.css",
+      "doc/res/doc.js"
+    ],
+    "refer": []
+  },
+  "plus/audio.html": {
+    "resources": [
+      "img/astop.png",
+      "img/arecord.png"
+    ],
+    "refer": []
+  },
+  "plus/proximity.html": {
+    "resources": [
+      "js/common.js",
+      "css/common.css",
+      "js/immersed.js"
+    ],
+    "refer": []
+  },
+  "plus/doc.html": {
+    "refer": [
+      "doc/downloader.html",
+      "doc/audio.html"
+    ],
+    "resources": []
+  },
+  "plus/njs.html": {
+    "refer": [
+      "plus/njs_efficient.html"
+    ],
+    "resources": []
+  },
+  "plus/file.html": {
+    "resources": [
+      "img/fdisk.png",
+      "img/fup.png",
+      "img/ffile.png",
+      "img/fdir.png"
+    ],
+    "refer": []
+  },
+  "homePage.html": {
+    "resources": [
+      "js/common.js",
+      "css/common.css",
+      "js/immersed.js",
+      "js/mui.min.js",
+      "css/mui.css"
+    ],
+    "refer": [
+      "plus/doc.html",
+      "plus/barcode.html",
+      "fun-center.html"
+    ]
+  },
+  "doc/audio.html": {
+    "resources": [
+      "doc/res/doc.css",
+      "doc/res/prettify.js",
+      "doc/res/prettify.sons.css",
+      "doc/res/doc.js"
+    ],
+    "refer": []
+  },
+  "fun-center.html": {
+    "resources": [
+      "css/mui.css",
+      "js/common.js",
+      "js/mui.min.js",
+      "css/common.css"
+    ],
+    "refer": []
+  }
+}
